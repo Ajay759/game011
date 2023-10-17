@@ -1,0 +1,117 @@
+body {
+  background-color: rgb(220, 197, 197);
+}
+* {
+  text-decoration: none;
+}
+.again {
+  border: none;
+  padding: 16px;
+  border-radius: 60px;
+  width: 75px;
+  background-color: white;
+  color: black;
+  margin: 10px;
+  display: inline-block;
+  text-align: center;
+  font-size: 25px;
+}
+.again:hover {
+  background: rgb(232, 201, 201);
+}
+.again:active {
+  background-color: black;
+  color: white;
+}
+.between {
+  float: right;
+  font-size: 30px;
+  padding: 10px;
+  color: black;
+  text-decoration: none;
+  margin: 10px;
+  display: inline-block;
+}
+h1 {
+  position: relative;
+  font-size: 60px;
+  text-align: center;
+  border-bottom: 9px solid white;
+  padding-bottom: 30px;
+  margin-top: 10px;
+}
+.qw {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.q::-webkit-inner-spin-button,
+.q::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+.q {
+  width: 80px;
+  height: 80px;
+  font-size: 40px;
+  text-align: center;
+  border: none;
+  z-index: -1;
+}
+.q:focus-visible {
+  outline: none;
+}
+.flex {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 26px;
+  margin-left: 180px;
+  margin-top: 30px;
+}
+.check {
+  border: none;
+  display: block;
+  margin: 20px;
+  width: 120px;
+  text-align: center;
+  padding: 10px;
+  background-color: white;
+  color: black;
+  border-radius: 12px;
+}
+.check:hover {
+  background: rgb(232, 201, 201);
+}
+.check:active {
+  background-color: black;
+  color: white;
+}
+.corr {
+  width: 260px;
+}
+.vv {
+  margin-right: 180px;
+  font-size: 30px;
+}
+.empty {
+  border: 6px solid white;
+  padding: 20px;
+  width: 80px;
+  height: 40px;
+  margin: 30px;
+  display: inline-block;
+  background-color: transparent;
+  font-size: 30px;
+  text-align: center;
+}
+.empty:focus-visible {
+  outline: none;
+}
+.empty::-webkit-inner-spin-button,
+.empty::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
