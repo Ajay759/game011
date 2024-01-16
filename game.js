@@ -4,7 +4,7 @@ document.querySelector(".q").value = Secretnumber;
 let scorevalue = 20;
 let highscore = 0;
 
-document.querySelector(".check").addEventListener("click", function () {
+document.querySelector(".check").addEventListener("keypress", function () {
   const guess = Number(document.querySelector(".empty").value);
   console.log(guess);
   
